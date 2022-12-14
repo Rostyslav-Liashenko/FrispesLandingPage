@@ -45,6 +45,10 @@
     display: flex;
     font-size: 1.5rem;
     font-family: 'Playfair Display', serif;
+}
+
+.logo__link {
+    text-decoration: none;
     color: var(--brand-color-primary);
 }
 
@@ -76,14 +80,20 @@
 
 .authorization__item {
     padding: 12px 24px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
     text-align: center;
 }
 
 .login {
+    border: none;
+    background: none;
     color: var(--brand-color-secondary);
 }
 
 .sign-up {
+    border: var(--brand-color-secondary);
     background-color: var(--brand-color-secondary);
     color: #fff;
     box-shadow: 0 4px 16px rgba(255, 87, 34, 0.32);
