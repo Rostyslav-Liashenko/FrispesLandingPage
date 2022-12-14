@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-.wrapper_left-indent {
+.wrapper__left-indent {
     margin-left: 10%;
 }
 
@@ -29,6 +29,10 @@
 
 .wrapper_hero {
     margin-top: 55px;
+}
+
+.wrapper_hero__our-space {
+    margin-bottom: 115px;
 }
 
 .logo {
@@ -314,4 +318,72 @@
 .indicator_disabled {
     font-size: 0.9rem;
     color: #9A9A9A;
+}
+
+.why-frispes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage {
+    width: 205px;
+    display: flex;
+}
+
+.advantage__right-part {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+.advantage__title {
+    font-family: 'Lora', serif;
+    color: var(--brand-color-primary);
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.advantage__description {
+    font-family: 'Lato', sans-serif;
+    color: #9A9A9A;
+}
+
+.why-frispes__left-part {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 64px 124px;
+}
+
+.why-frispes__right-part {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--brand-color-primary);
+    color: #FFFFFF;
+    padding: 53px;
+}
+
+.why-frispes__top-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+.why-frispes__bottom-title {
+    width: 433px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 51px;
+    margin-bottom: 24px;
+}
+
+.why-frispes__description {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 30px;
+    width: 450px;
 }
