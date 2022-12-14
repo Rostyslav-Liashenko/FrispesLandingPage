@@ -8,12 +8,12 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <div class="wrapper">
-        <header class="header wrapper__header">
+        <header class="header wrapper__header wrapper_left-indent">
             <nav class="navigation">
                 <div class="logo navigation__logo">
                     Frispes.
@@ -36,6 +36,73 @@
                 </div>
             </nav>
         </header>
+        <section class="hero wrapper_hero wrapper_left-indent">
+            <div class="intro hero__intro">
+                <span class="intro__text">Introducing</span>
+            </div>
+            <div class="hero__top center-container">
+                <div class="hero__title">
+                    <span class="hero__title-first-word">Revolutionary</span> co-working space to realize your innovation
+                </div>
+                <div class="hero__description">
+                    In frispes, we spearhead new initiatives and provide mentorship
+                    to a new startup, and help grow their opportunities in key local,
+                    regional and global markets
+                </div>
+            </div>
+            <div class="hero__content">
+                <form class="search-form">
+                    <div class="search-form__title">
+                        Find your space now
+                    </div>
+                    <div class="custom-select search-form__custom-select">
+                        <div class="custom-select__left_part">
+                            <div class="custom-select__hint">
+                                Location
+                            </div>
+                            <div class="custom-select__option">
+                                Malang, Indonesia
+                            </div>
+                        </div>
+                        <div class="custom-select__right_part">
+                            <img src="asset/img/hero/arrow_down.png" alt="arrow down">
+                        </div>
+                    </div>
+                    <div class="custom-select search-form__custom-select">
+                        <div class="custom-select__left_part">
+                            <div class="custom-select__hint">
+                                Type
+                            </div>
+                            <div class="custom-select__option">
+                                Private Office
+                            </div>
+                        </div>
+                        <div class="custom-select__right_part">
+                            <img src="asset/img/hero/arrow_down.png" alt="arrow down">
+                        </div>
+                    </div>
+                    <div class="custom-select search-form__custom-select">
+                        <div class="custom-select__left_part">
+                            <div class="custom-select__hint">
+                                Date
+                            </div>
+                            <div class="custom-select__option">
+                                9 Aug 2020
+                            </div>
+                        </div>
+                        <div class="custom-select__right_part">
+                            <img src="asset/img/hero/arrow_down.png" alt="arrow down">
+                        </div>
+                    </div>
+                    <button class="search-form__button">
+                        Find my space
+                    </button>
+                </form>
+                <div class="slider">
+                    <img src="asset/img/hero/slide_photo.png" alt="photo from slide">
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
