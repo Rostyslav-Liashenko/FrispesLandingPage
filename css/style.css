@@ -1,7 +1,7 @@
 :root {
     --brand-color-primary:#10375C;
     --brand-color-secondary:#FF5722;
-    --introducing--color: #222831;
+    --special-color-black: #222831;
 }
 
 .center-container {
@@ -78,7 +78,7 @@
 
 .intro {
     font-size: 1.25rem;
-    color: var(--introducing--color);
+    color: var(--special-color-black);
 }
 
 .hero__intro {
@@ -115,11 +115,10 @@
 }
 
 .hero__content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 700px;
     position: relative;
 }
+
 
 .search-form {
     display: flex;
@@ -184,4 +183,115 @@
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.our-space {
+    font-family: 'Lora', serif;
+    flex-direction: column;
+}
+
+.our-space__group-arrow {
+    align-self: flex-end;
+}
+
+.our-space__top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.our-space__title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--brand-color-primary);
+}
+
+.our-space__description {
+    width: 550px;
+    font-size: 1.25rem;
+    line-height: 28px;
+    color: #9A9A9A;
+}
+
+.our-space__group-card {
+    display: flex;
+    gap: 0 30px;
+}
+
+.card__content {
+    position: relative;
+}
+
+.card__button_arrow {
+    position: absolute;
+    left: 0;
+    top: 83.9%;
+    border: var(--brand-color-secondary);
+    background-color: var(--brand-color-secondary);
+    padding: 25px;
+}
+
+.rotate-90 {
+    transform: rotate(-90deg);
+}
+
+.card__button_arrow:hover {
+    cursor: pointer;
+}
+
+.card__title {
+    margin-top: 25px;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+    color: var(--special-color-black);
+    text-align: center;
+}
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: #FFFFFF;
+    min-width: 350px;
+    background-color: var(--brand-color-primary);
+}
+
+.text-card__top {
+    align-self: flex-end;
+    opacity: 0.2;
+    margin: 16px 16px;
+}
+
+.text-card__bottom {
+    align-self: flex-start;
+}
+
+.text-card__button-label {
+    margin-right: 20px;
+}
+
+.text-card__title {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.text-card__description {
+    width: 255px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.text-card__button {
+    width: 250px;
+    background-color: var(--brand-color-secondary);
+    border: var(--brand-color-secondary);
+    padding: 20px 15px;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
 }
