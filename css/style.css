@@ -2,6 +2,8 @@
     --brand-color-primary:#10375C;
     --brand-color-secondary:#FF5722;
     --special-color-black: #222831;
+    --description-color: #9A9A9A;
+    --color-menu-link: #000000;
 }
 
 .center-container {
@@ -61,12 +63,11 @@
 
 .menu__link {
     text-decoration: none;
-    color: #000000;
+    color: var(--color-menu-link);
 }
 
 .authorization {
     display: flex;
-    font-family: 'Lato', sans-serif;
 }
 
 .authorization__item {
@@ -105,7 +106,6 @@
     font-weight: 700;
     color: var(--brand-color-primary);
     line-height: 67px;
-
     margin-right: 60px;
     padding: 0;
 }
@@ -132,7 +132,7 @@
     display: flex;
     flex-direction: column;
     background-color: var(--brand-color-primary);
-    color: #FFFFFF;
+    color: #fff;
     max-height: 460px;
     padding: 42px 72px 30px 40px;
     position: absolute;
@@ -149,8 +149,7 @@
 }
 
 .search-form__button {
-    font-family: 'Lato', sans-serif;
-    color: #FFFFFF;
+    color: #fff;
     font-weight: 700;
     font-size: 1.2rem;
     background-color: var(--brand-color-secondary);
@@ -174,7 +173,6 @@
 }
 
 .custom-select__hint {
-    font-family: 'Lato', sans-serif;
     opacity: 0.35;
     font-size: 1rem;
     padding-bottom: 2px;
@@ -216,7 +214,7 @@
     width: 550px;
     font-size: 1.25rem;
     line-height: 28px;
-    color: #9A9A9A;
+    color: var(--description-color);
 }
 
 .our-space__group-card {
@@ -260,7 +258,7 @@
     align-items: center;
     text-align: center;
     font-family: 'Lora', serif;
-    color: #FFFFFF;
+    color: #fff;
     min-width: 350px;
     background-color: var(--brand-color-primary);
 }
@@ -296,7 +294,7 @@
     background-color: var(--brand-color-secondary);
     border: var(--brand-color-secondary);
     padding: 20px 15px;
-    color: #FFFFFF;
+    color: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
 }
@@ -317,7 +315,7 @@
 
 .indicator_disabled {
     font-size: 0.9rem;
-    color: #9A9A9A;
+    color: var(--description-color);
 }
 
 .why-frispes {
@@ -345,8 +343,7 @@
 }
 
 .advantage__description {
-    font-family: 'Lato', sans-serif;
-    color: #9A9A9A;
+    color: var(--description-color);
 }
 
 .why-frispes__left-part {
@@ -360,12 +357,11 @@
     display: flex;
     flex-direction: column;
     background-color: var(--brand-color-primary);
-    color: #FFFFFF;
+    color: #fff;
     padding: 53px;
 }
 
 .why-frispes__top-title {
-    font-family: 'Lato', sans-serif;
     font-size: 1.25rem;
     line-height: 30px;
     margin-bottom: 8px;
@@ -373,7 +369,6 @@
 
 .why-frispes__bottom-title {
     width: 433px;
-    font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 51px;
@@ -381,7 +376,6 @@
 }
 
 .why-frispes__description {
-    font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 30px;
