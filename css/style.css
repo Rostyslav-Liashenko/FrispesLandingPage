@@ -12,6 +12,10 @@
     align-items: center;
 }
 
+.wrapper {
+    margin: 0 auto;
+}
+
 .wrapper__left-indent {
     margin-left: 10%;
 }
