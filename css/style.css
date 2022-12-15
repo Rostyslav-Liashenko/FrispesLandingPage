@@ -42,8 +42,12 @@
     margin-top: 55px;
 }
 
-.wrapper_hero__our-space {
+.wrapper__our-space {
     margin-bottom: 115px;
+}
+
+.wrapper__why-frispes {
+    margin-bottom: 122px;
 }
 
 .rotate-90 {
@@ -398,4 +402,45 @@
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 30px;
+}
+
+.section-intro__title {
+    width: 570px;
+    margin-top: 10px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 51px;
+    color: var(--brand-color-primary);
+}
+
+.our-facility__vertical-slider {
+    margin-top: 50px;
+}
+
+.vertical-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.vertical-slider__vertical-text {
+    transform: rotate(-90deg);
+    transform-origin: right bottom;
+}
+
+.vertical-slider__item {
+    text-align: left;
+    width: 100%;
+    padding: 24px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 24px;
+    color: #222831;
+}
+
+.vertical-slider__item_selected {
+    color: #FFFFFF;
+    background-color: var(--brand-color-secondary);
+    box-shadow: 2px 2px 20px rgba(255, 87, 34, 0.3); /* fix shadow */
 }
