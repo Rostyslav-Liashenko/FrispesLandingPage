@@ -461,3 +461,51 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.review {
+    width: 430px;
+    padding: 40px;
+    background-color: var(--brand-color-primary);
+    color: #FFFFFF;
+}
+
+.reviews__top {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__group-arrow {
+    margin-top: 20px;
+    align-self: flex-end;
+}
+
+.reviews__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 30px;
+    margin-top: 50px;
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+.review__text {
+    min-height: 155px;
+}
+
+.review__author {
+    margin-top: 95px;
+}
+
+.author {
+    display: flex;
+}
+
+.author__photo {
+    margin-right: 16px;
+}
+
+.author__description {
+    display: flex;
+    flex-direction: column;
+    gap: 0 5px;
+}
