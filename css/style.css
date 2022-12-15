@@ -16,8 +16,8 @@
     margin: 0 auto;
 }
 
-.wrapper__left-indent {
-    margin-left: 10%;
+.wrapper__bottom-indent {
+    margin-bottom: 112px;
 }
 
 .button {
@@ -36,18 +36,6 @@
 
 .wrapper__header {
     margin-top: 4%
-}
-
-.wrapper_hero {
-    margin-top: 55px;
-}
-
-.wrapper__our-space {
-    margin-bottom: 115px;
-}
-
-.wrapper__why-frispes {
-    margin-bottom: 122px;
 }
 
 .rotate-90 {
@@ -218,7 +206,7 @@
     font-family: 'Lora', serif;
 }
 
-.our-space__group-arrow {
+.group-arrow {
     align-self: flex-end;
 }
 
@@ -443,4 +431,33 @@
     color: #FFFFFF;
     background-color: var(--brand-color-secondary);
     box-shadow: 2px 2px 20px rgba(255, 87, 34, 0.3); /* fix shadow */
+}
+
+.who-use {
+    text-align: center;
+}
+
+.who-use__title {
+    margin-bottom: 25px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 51px;
+    color: var(--brand-color-primary);
+}
+
+.who-use__description {
+    margin-bottom: 55px;
+    font-size: 1.25rem;
+    color: var(--description-color);
+}
+
+.gallery__group-arrow {
+    margin-top: 35px;
+}
+
+.brand-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
