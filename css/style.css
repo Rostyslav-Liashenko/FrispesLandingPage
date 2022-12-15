@@ -437,8 +437,11 @@
     text-align: center;
 }
 
-.who-use__title {
+.who-use__center-title-section {
     margin-bottom: 25px;
+}
+
+.center-title-section {
     font-family: 'Lora', sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
@@ -514,4 +517,15 @@
     display: flex;
     flex-direction: column;
     gap: 0 5px;
+}
+
+.faq_center-title-section {
+    max-width: 578px;
+    margin-bottom: 51px;
+    text-align: center;
+}
+
+.questions {
+    display: flex;
+    justify-content: space-between;
 }
