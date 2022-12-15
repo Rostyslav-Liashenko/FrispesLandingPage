@@ -16,6 +16,11 @@
     margin-left: 10%;
 }
 
+.button {
+    border: none;
+    background: none;
+}
+
 .button:hover {
     cursor: pointer;
 }
