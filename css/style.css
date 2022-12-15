@@ -1,6 +1,6 @@
 :root {
-    --brand-color-primary:#10375C;
-    --brand-color-secondary:#FF5722;
+    --brand-color-primary: #10375C;
+    --brand-color-secondary: #FF5722;
     --special-color-black: #222831;
     --description-color: #9A9A9A;
     --color-menu-link: #000000;
@@ -224,6 +224,7 @@
 
 .our-space__description {
     width: 550px;
+
     font-size: 1.25rem;
     line-height: 28px;
     color: var(--description-color);
