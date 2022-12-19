@@ -61,10 +61,6 @@
     font-weight: 700;
 }
 
-.navigation__logo {
-    margin-right: 20%;
-}
-
 .menu {
     display: flex;
     gap: 0 40px;
@@ -199,7 +195,7 @@
 .slider {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 28%;
 }
 
 .our-space {
@@ -331,6 +327,7 @@
 
 .why-frispes {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -361,7 +358,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    gap: 64px 124px;
+    gap: 64px 90px;
 }
 
 .why-frispes__right-part {
@@ -387,7 +384,7 @@
 }
 
 .why-frispes__description {
-    width: 450px;
+    width: 430px;
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 30px;
@@ -464,6 +461,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.reviews {
+    position: relative;
 }
 
 .review {
