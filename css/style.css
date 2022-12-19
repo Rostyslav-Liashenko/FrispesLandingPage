@@ -13,13 +13,18 @@
     align-items: center;
 }
 
-.wrapper {
+.small-global-container {
     margin: 0 auto;
     max-width: 1110px;
     font-family: 'Lato', sans-serif;
 }
 
-.wrapper__bottom-indent {
+.big-global-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.bottom-indent {
     margin-bottom: 112px;
 }
 
@@ -593,6 +598,10 @@
     background-color: var(--color-section-news);
 }
 
+.news__small-global-container {
+    padding: 95px 0;
+}
+
 .news__content {
     display: flex;
     justify-content: space-between;
@@ -682,10 +691,13 @@
 }
 
 .become-member {
+    background-color: var(--brand-color-primary);
+}
+
+.become-member__small-global-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--brand-color-primary);
 }
 
 .become-member__info {
