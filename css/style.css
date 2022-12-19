@@ -321,7 +321,7 @@
     margin-top: 10px;
 }
 
-.indicator_disabled {
+.indicator__disabled {
     font-size: 0.9rem;
     color: var(--description-color);
 }
@@ -411,9 +411,15 @@
     align-items: flex-start;
 }
 
+.vertical-slider__disabled {
+    text-script: 0.9rem;
+    color: var(--description-color);
+}
+
 .vertical-slider__vertical-text {
+    transform-origin: left center;
     transform: rotate(-90deg);
-    transform-origin: right bottom;
+    margin-top: 60px;
 }
 
 .vertical-slider__item {
