@@ -4,6 +4,7 @@
     --special-color-black: #222831;
     --description-color: #9A9A9A;
     --color-menu-link: #000000;
+    --color-section-news: #F8F8F8;
 }
 
 .center-container {
@@ -217,7 +218,7 @@
     margin-bottom: 50px;
 }
 
-.our-space__title {
+.simple-section-title {
     font-weight: 700;
     font-size: 2.5rem;
     color: var(--brand-color-primary);
@@ -507,6 +508,7 @@
 
 .author {
     display: flex;
+    align-items: center;
 }
 
 .author__photo {
@@ -580,4 +582,96 @@
 
 .another-page__button {
     margin-top: 5px;
+}
+
+.news {
+    background-color: var(--color-section-news);
+}
+
+.news__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.news__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.two-segment-news__author {
+    margin-top: 55px;
+}
+
+.two-segment-news {
+    width: 730px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.two-segment-news__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 32px;
+}
+
+.two-segment-news__title {
+    margin-bottom: 25px;
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    line-height: 41px;
+    font-weight: 700;
+    color: var(--special-color-black);
+}
+
+.two-segment-news__description {
+    width: 315px;
+    margin-bottom: 16px;
+    font-size: 1rem;
+    line-height: 26px;
+    color: var(--description-color);
+}
+
+.two-segment-news__author-name {
+    font-size: 1.25rem;
+    line-height: 28px;
+    color: var(--brand-color-primary);
+}
+
+.two-segment-news__author-profession {
+    font-size: 1rem;
+    line-height: 26px;
+    color: var(--description-color);
+}
+
+.one-segment-news {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.one-segment-news__content {
+    width: 350px;
+    padding-left: 16px;
+}
+
+.one-segment-news__title {
+    margin-top: 15px;
+    font-family: 'Lora', serif;
+    font-size: 1.4rem;
+    line-height: 28px;
+    color: var(--special-color-black);
+}
+
+.one-segment-news__author {
+    margin-top: 5px;
+    font-size: 1rem;
+    line-height: 26px;
+    color: var(--description-color);
 }
