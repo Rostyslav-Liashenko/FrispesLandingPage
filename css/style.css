@@ -536,20 +536,26 @@
     display: flex;
     justify-content: space-between;
     gap: 0 25px;
+    color: #000000;
 }
 
 .question {
     width: 360px;
     padding: 50px 20px;
     font-family: 'Lora', serif;
-    background-color: var(--brand-color-primary);
+    background-color: #FFFFFF;
+}
+
+.question_select {
+    background-color: var(--brand-color-secondary);
+    color: #FFFFFF;
 }
 
 .question__content {
     font-size: 1.625rem;
     text-align: center;
     line-height: 33px;
-    color: #000000;
+
 }
 
 .question__button {
@@ -560,12 +566,17 @@
     position: absolute;
     left: 40%;
     top: 20px;
-    padding: 27px;
+    padding: 10px 16px;
     background-color: var(--brand-color-secondary);
+}
+
+.question__button-content_select {
+    background-color: #FFFFFF;
 }
 
 .faq__another-page {
     margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .another-page {
