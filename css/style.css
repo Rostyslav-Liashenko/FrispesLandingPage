@@ -5,7 +5,9 @@
     --special-color-black: #222831;
     --description-color: #9A9A9A;
     --color-menu-link: #000000;
-    --color-section-news: #F8F8F8;
+    --color-special-grey: #F8F8F8;
+    --color-special-grey-2: #6A6A6A;
+    --color-usually: #FFFFFF;
 }
 
 .center-container {
@@ -94,7 +96,7 @@
 .sign-up {
     border: var(--brand-color-secondary);
     background-color: var(--brand-color-secondary);
-    color: #fff;
+    color: var(--color-usually);
     box-shadow: 0 4px 16px rgba(255, 87, 34, 0.32);
 }
 
@@ -127,7 +129,7 @@
     width: 30%;
     font-size: 1.25rem;
     line-height: 30px;
-    color: #6A6A6A;
+    color: var(--color-special-grey-2);
     text-align: justify;
 }
 
@@ -150,7 +152,7 @@
     max-height: 460px;
     padding: 42px 72px 30px 40px;
     background-color: var(--brand-color-primary);
-    color: #fff;
+    color: var(--color-usually);
 }
 
 .search-form__title {
@@ -166,7 +168,7 @@
     border: var(--brand-color-secondary);
     font-weight: 700;
     font-size: 1.2rem;
-    color: #fff;
+    color: var(--color-usually);
     background-color: var(--brand-color-secondary);
 }
 
@@ -267,7 +269,7 @@
     align-items: center;
     font-family: 'Lora', serif;
     text-align: center;
-    color: #fff;
+    color: var(--color-usually);
     background-color: var(--brand-color-primary);
 }
 
@@ -304,7 +306,7 @@
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     background-color: var(--brand-color-secondary);
-    color: #fff;
+    color: var(--color-usually);
 }
 
 .indicator {
@@ -367,7 +369,7 @@
     flex-direction: column;
     padding: 53px;
     background-color: var(--brand-color-primary);
-    color: #fff;
+    color: var(--color-usually);
 }
 
 .why-frispes__top-title {
@@ -433,7 +435,7 @@
 }
 
 .vertical-slider__item_selected {
-    color: #FFFFFF;
+    color: var(--color-usually);
     background-color: var(--brand-color-secondary);
     box-shadow: 2px 2px 20px rgba(255, 87, 34, 0.3); /* fix shadow */
 }
@@ -478,7 +480,7 @@
     width: 430px;
     padding: 40px;
     background-color: var(--brand-color-primary);
-    color: #FFFFFF;
+    color: var(--color-usually);
 }
 
 .reviews__top {
@@ -550,12 +552,12 @@
     width: 360px;
     padding: 50px 20px;
     font-family: 'Lora', serif;
-    background-color: #FFFFFF;
+    background-color: var(--color-usually);
 }
 
 .question_select {
     background-color: var(--brand-color-secondary);
-    color: #FFFFFF;
+    color: var(--color-usually);
 }
 
 .question__content {
@@ -578,7 +580,7 @@
 }
 
 .question__button-content_select {
-    background-color: #FFFFFF;
+    background-color: var(--color-usually);
 }
 
 .faq__another-page {
@@ -604,7 +606,7 @@
 }
 
 .news {
-    background-color: var(--color-section-news);
+    background-color: var(--color-special-grey);
 }
 
 .news__small-global-container {
@@ -633,7 +635,7 @@
     width: 730px;
     display: flex;
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: var(--color-usually);
 }
 
 .two-segment-news__content {
@@ -676,7 +678,7 @@
 .one-segment-news {
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: var(--color-usually);
 }
 
 .one-segment-news__content {
@@ -715,7 +717,7 @@
 }
 
 .become-member_highlight {
-    color: #FFFFFF;
+    color: var(--color-usually);
 }
 
 .become-member__description {
@@ -732,7 +734,7 @@
     font-size: 1rem;
     line-height: 28px;
     background-color: var(--brand-color-secondary);
-    color: #FFFFFF;
+    color: var(--color-usually);
 }
 
 .footer {
@@ -754,7 +756,7 @@
     font-weight: 700;
     font-size: 3.3rem;
     line-height: 67px;
-    color: #FFFFFF;
+    color: var(--color-usually);
 }
 
 .footer__our-benefits {
@@ -762,7 +764,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
     line-height: 26px;
-    color: var(--color-section-news);
+    color: var(--color-special-grey);
     opacity: 0.85;
 }
 
@@ -773,7 +775,7 @@
 }
 
 .custom-vertical-list {
-    color: #FFFFFF;
+    color: var(--color-usually);
 }
 
 .footer__customer-vertical-list {
@@ -801,7 +803,7 @@
 .custom-vertical-list__item-link {
     width: 220px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--color-usually);
     font-size: 1rem;
     line-height: 26px;
 }
