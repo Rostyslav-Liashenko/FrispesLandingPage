@@ -101,8 +101,21 @@
 }
 
 .intro {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
     font-size: 1.25rem;
     color: var(--special-color-black);
+}
+
+.intro__line {
+    width: 75px;
+    height: 2px;
+    background-color: #222831;
+}
+
+.intro__line_white {
+    background-color: var(--color-usually);
 }
 
 .hero__intro {
@@ -376,6 +389,7 @@
     font-size: 1.25rem;
     line-height: 30px;
     margin-bottom: 8px;
+    color: var(--color-usually);
 }
 
 .why-frispes__bottom-title {
