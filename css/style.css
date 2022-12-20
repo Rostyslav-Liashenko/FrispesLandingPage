@@ -628,10 +628,14 @@
 }
 
 .news__content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template: 50% / 33% 33% 33%;
     gap: 30px;
+}
+
+.news__two-segment-news {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .news__title {
