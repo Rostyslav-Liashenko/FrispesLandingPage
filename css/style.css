@@ -16,13 +16,13 @@
     align-items: center;
 }
 
-.small-global-container {
+.sub-container {
     margin: 0 auto;
     max-width: 1110px;
     font-family: 'Lato', sans-serif;
 }
 
-.big-global-container {
+.container {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -623,7 +623,7 @@
     background-color: var(--color-special-grey);
 }
 
-.news__small-global-container {
+.news__sub-container {
     padding: 95px 0;
 }
 
@@ -720,7 +720,7 @@
     background-color: var(--brand-color-primary);
 }
 
-.become-member__small-global-container {
+.become-member__sub-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -755,7 +755,7 @@
     background: var(--brand-color-primary-dark);
 }
 
-.footer__small-global-container {
+.footer__sub-container {
     display: flex;
     justify-content: space-between;
     padding: 55px 0;
