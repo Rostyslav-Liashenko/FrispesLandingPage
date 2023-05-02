@@ -491,6 +491,10 @@
 }
 
 .review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
     width: 430px;
     padding: 40px;
     background-color: var(--brand-color-primary);
@@ -520,14 +524,6 @@
     margin-top: 35px;
     display: flex;
     justify-content: center;
-}
-
-.review__text {
-    min-height: 155px;
-}
-
-.review__author {
-    margin-top: 95px;
 }
 
 .author {
